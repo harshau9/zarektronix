@@ -5,7 +5,7 @@ For my project with [Zarektronix Technologies Pvt Ltd](https://www.zarektronix.c
 
 Frontend: React for dynamic and responsive user interfaces.\
 Backend: Node.js, Express.js to handle server-side logic and connectivity.\
-Database: MongoDB Atlas for efficient and flexible data storage.\
+Database: MongoDB Atlas for efficient and flexible data storage.
 
 ### [Click here front-end Deployment Link](https://animated-unicorn-aad401.netlify.app/)
 
@@ -20,3 +20,5 @@ Database: MongoDB Atlas for efficient and flexible data storage.\
 
 ### Registered Users List Page
 ![Screenshot (1507)](https://github.com/harshau9/zarektronix/assets/31920143/fe2293f8-072a-4042-9de4-6bc46446cf62)
+
+#### [Video explanation](https://drive.google.com/file/d/1qJvsX3do5Q-GTJngNqn9m0KdNizdmDai/view?usp=sharing)
