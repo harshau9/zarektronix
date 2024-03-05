@@ -10,7 +10,7 @@ Database: MongoDB Atlas for efficient and flexible data storage.\
 ### [Click here front-end Deployment Link](https://animated-unicorn-aad401.netlify.app/)
 
 ### Backend Links
-[Click here Backend-end Deployment Link](https://puzzled-clothes-ox.cyclic.app/)
+[Click here Backend-end Deployment Link](https://puzzled-clothes-ox.cyclic.app/) \
 [Github Link - Backend](https://github.com/harshau9/zarektronix-backend)
 ## SnapShots
 
