@@ -15,6 +15,8 @@ Database: MongoDB Atlas for efficient and flexible data storage.\
 ## SnapShots
 
 ### Signup Page
+![Screenshot (1508)](https://github.com/harshau9/zarektronix/assets/31920143/cfd452d7-22a8-4bdf-b9d0-c90d118c2ecc)
 
 
 ### Registered Users List Page
+![Screenshot (1507)](https://github.com/harshau9/zarektronix/assets/31920143/fe2293f8-072a-4042-9de4-6bc46446cf62)
