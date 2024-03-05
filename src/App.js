@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React, { useState, useEffect } from "react";
+import Signup from "./components/Signup";
+import UsersList from "./components/UsersList";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const [usersUpdated, setUsersUpdated] = useState(false);
+  const onRegistration = () => {
+    setUsersUpdated(true);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={<Signup onRegistration={onRegistration} />}
+          ></Route>
+          <Route
+            path="/users"
+            element={<UsersList usersUpdated={usersUpdated} />}
+          ></Route>
+        </Routes>
+      </div>
     </div>
   );
 }
