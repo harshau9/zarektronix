@@ -7,8 +7,11 @@ Frontend: React for dynamic and responsive user interfaces.\
 Backend: Node.js, Express.js to handle server-side logic and connectivity.\
 Database: MongoDB Atlas for efficient and flexible data storage.\
 
-### [Click here Deployment Link](https://animated-unicorn-aad401.netlify.app/)
+### [Click here front-end Deployment Link](https://animated-unicorn-aad401.netlify.app/)
 
+### Backend Links
+[Click here Backend-end Deployment Link](https://puzzled-clothes-ox.cyclic.app/)
+[Github Link - Backend](https://github.com/harshau9/zarektronix-backend)
 ## SnapShots
 
 ### Signup Page
