@@ -38,7 +38,6 @@ function Signup({onRegistration}) {
   
         await Promise.all(promises);
         removeLocally();
-        onRegistration();
       } else {
       
           const response = await fetch("https://puzzled-clothes-ox.cyclic.app/users/register", {
@@ -48,25 +47,18 @@ function Signup({onRegistration}) {
               "content-type": "application/json"
             }
           })
-          .then((res) => {
-            if (!res.ok) {
-              throw new Error(`Registration failed with status: ${res.status}`);
-            }
-            return res.json();
-          })
-          .then((res) => {
-            console.log(res);
-            alert("Registration Done Successfully");
-            removeLocally();
-            onRegistration();
-          })
-          .catch((err) => {
-            console.error("here error",err);
-              alert("Registration not Successful, email already exists");
-          });
+          alert("Registration Done Successfully");
+          if (!response.ok) {
+            throw new Error(`Registration failed with status: ${response.status}`);
+          }
+          const data = await response.json();
+          console.log(data);
+          
       }
+      onRegistration();
     } catch (err) {
-      console.log(err);
+      console.error("Error:", err.message);
+      // alert("Registration Not Successfull, user already registered");
     }
   };
   
