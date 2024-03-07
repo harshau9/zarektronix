@@ -21,4 +21,8 @@ Database: MongoDB Atlas for efficient and flexible data storage.
 ### Registered Users List Page
 ![Screenshot (1507)](https://github.com/harshau9/zarektronix/assets/31920143/fe2293f8-072a-4042-9de4-6bc46446cf62)
 
+### Users Database - MongoDB Atlas
+![usersDB](https://github.com/harshau9/zarektronix/assets/31920143/7e5af893-21ca-4dc2-9f82-a9c1b2b3ea41)
+
+
 #### [Video explanation](https://drive.google.com/file/d/1qJvsX3do5Q-GTJngNqn9m0KdNizdmDai/view?usp=sharing)
